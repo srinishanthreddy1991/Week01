@@ -7,43 +7,47 @@
 </head>
 
 <body>
-<fieldset class="signUp">
-    <legend><h1>SignUp</h1></legend>
-    <form action="/action_page.php">
-        <div class="container1">
-            <b>Email</b>
-            <input type="text" placeholder="Enter email" name="email" required>
-            <br>
-            <b>Password</b>
-            <input type="password" placeholder="Enter password" name="passcode" required>
-            <br>
-            <b>Re-enter Password</b>
-            <input type="password" placeholder="Enter the password again" name="passcodeAgain" required>
-            <br>
-            <div class="clearfix">
-                <button id="loginbtn" type="submit" onclick="signUp()">Cancel</button>
-                <button id="resetbtn" type="submit" class="reset()">Sign Up</button>
-            </div>
-        </div>
-    </form>
-</fieldset>
+<form>
+<div class="total">
+    <fieldset class="signUp">
+        <legend><h1>SignUp</h1></legend>
 
-<fieldset class="signIn">
-    <legend><h1>Sign In</h1></legend>
-    <form action="/action_page.php">
-        <div class="container2">
-            <b>Username</b>
-            <input type="text" placeholder="Enter email" name="email" required>
-            <br>
-            <b>Password</b>
-            <input type="password" placeholder="Enter Password" required>
-            <br>
-            <input type="submit" onclick="login()">
-        </div>
-    </form>
-</fieldset>
+            <p>
+                <label for="email"><strong>Email:</strong></label>
+                <input id="email" type="text" placeholder="Enter email" name="email" required>
+            </p>
+            <p>
+                <label for="pass"><strong>Password:</strong></label>
+                <input id="pass" type="password" placeholder="Enter password" name="passcode" required>
+            </p>
+            <p>
+                <label for="repass"><strong>Re-Enter Password:</strong></label>
+                <input id="repass" type="password" placeholder="Enter the password again" name="passcodeAgain" required>
+            </p>
+                <div class="clearfix">
+                    <button onclick="signUp()">Cancel</button>
+                    <button onclick="reset()">Sign Up</button>
+                </div>
 
+    </fieldset>
+
+    <fieldset class="signIn">
+        <legend><h1>Sign In</h1></legend>
+
+            <p>
+                <label for="inEmail"><strong>Email:</strong></label>
+                <input id="inEmail" type="text" placeholder="Enter email" name="email" required>
+            </p>
+            <p>
+                <label for="inPass"><strong>Password:</strong></label>
+                <input id="inPass" type="password" placeholder="Enter password" name="signInpasscode" required>
+            </p>
+            <button onclick="signIn()">Sign In</button>
+
+    </fieldset>
+</div>
+</form>
+<script type="text/javascript" src="../jsFiles/main.js"></script>
 <script type="text/javascript" src="../jsFiles/indexJs.js"></script>
-
 </body>
 </html>
