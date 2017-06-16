@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week01</title>
+    <link rel="stylesheet" type="text/css" href="../Style/loginStyle.css">
+</head>
+<body>
+<div class="total">
+    <form id="signInForm" onclick="signIn()" action="loginHome.html" method="get">
+        <fieldset class="signIn">
+            <legend><h1>Sign In</h1></legend>
+            <ul>
+                <li>
+                    <label for="inEmail"><strong>Email:</strong></label>
+                    <input id="inEmail" type="email" placeholder="Enter email" name="email" required>
+                </li>
+                <li>
+                    <label for="inPass"><strong>Password:</strong></label>
+                    <input id="inPass" type="password" placeholder="Enter password" name="signInpasscode" required>
+                </li>
+                <li>
+                    <button form="signInForm" onclick=signIn()>Sign In</button>
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</div>
+<script type="text/javascript" src="../jsFiles/main.js"></script>
+<script type="text/javascript" src="../jsFiles/signIn.js"></script>
+</body>
+</html>

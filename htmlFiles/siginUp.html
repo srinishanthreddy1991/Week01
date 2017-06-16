@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="../Style/loginStyle.css" rel="stylesheet">
+    <title>SignUp</title>
+</head>
+<body>
+<div class="total">
+    <form id="signUpForm" onclick="signUp()" action="home.html" method="get">
+        <fieldset class="signUp">
+            <legend><h1>SignUp</h1></legend>
+            <ul>
+                <li>
+                    <label for="email"><strong>Email:</strong></label>
+                    <input id="email" type="email" placeholder="Enter email" name="email">
+                </li>
+                <li>
+                    <label for="pass"><strong>Password:</strong></label>
+                    <input id="pass" type="password" placeholder="Enter password" name="passcode">
+                </li>
+                <li>
+                    <label for="repass"><strong>Re-Enter Password:</strong></label>
+                    <input id="repass" type="password" placeholder="Enter the password again" name="passcodeAgain">
+                </li>
+                <li>
+                    <div class="clearfix">
+                        <button form="signUpForm" onclick="signUp()">Sign Up</button>
+                        <button onclick="reset()">Reset</button>
+                    </div>
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</div>
+<script type="text/javascript" src="../jsFiles/main.js"></script>
+<script type="text/javascript" src="../jsFiles/signUp.js"></script>
+</body>
+</html>
