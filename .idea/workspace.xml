@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86d6b79d-7bca-4925-8ea9-54e74e9050d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Style/loginStyle.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/htmlFiles/signIn.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jsFiles/signUp.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Style/indexStyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlFiles/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jsFiles/indexJs.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmlFiles/home.html" afterPath="$PROJECT_DIR$/htmlFiles/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/loginHome.css" afterPath="$PROJECT_DIR$/Style/loginHome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/htmlFiles/loginHome.html" afterPath="$PROJECT_DIR$/htmlFiles/loginHome.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -66,7 +60,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="signUp.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="signUp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsFiles/signUp.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="561">
@@ -74,6 +68,26 @@
               <folding>
                 <element signature="n#!!doc;n#signUp#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginHome.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/htmlFiles/loginHome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginHome.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Style/loginHome.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -104,7 +118,6 @@
         <option value="$PROJECT_DIR$/jsFiles/indexJs.js" />
         <option value="$PROJECT_DIR$/htmlFiles/index.html" />
         <option value="$PROJECT_DIR$/Style/indexStyle.css" />
-        <option value="$PROJECT_DIR$/htmlFiles/loginHome.html" />
         <option value="$PROJECT_DIR$/jsFiles/loginHome.css" />
         <option value="$PROJECT_DIR$/htmlFiles/home.html" />
         <option value="$PROJECT_DIR$/Style/loginStyle.css" />
@@ -116,6 +129,8 @@
         <option value="$PROJECT_DIR$/jsFiles/signIn.js" />
         <option value="$PROJECT_DIR$/htmlFiles/signIn.html" />
         <option value="$PROJECT_DIR$/htmlFiles/siginUp.html" />
+        <option value="$PROJECT_DIR$/htmlFiles/loginHome.html" />
+        <option value="$PROJECT_DIR$/Style/loginHome.css" />
       </list>
     </option>
   </component>
@@ -317,12 +332,12 @@
       <workItem from="1497550054016" duration="610000" />
       <workItem from="1497551587622" duration="6770000" />
       <workItem from="1497595781000" duration="3906000" />
-      <workItem from="1497618065958" duration="6750000" />
+      <workItem from="1497618065958" duration="7410000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43708000" />
+    <option name="totallyTimeSpent" value="44368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -659,26 +674,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Style/loginHome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/htmlFiles/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htmlFiles/loginHome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -726,6 +725,22 @@
           <folding>
             <element signature="n#!!doc;n#signUp#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Style/loginHome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htmlFiles/loginHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
