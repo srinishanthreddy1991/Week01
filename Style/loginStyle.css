@@ -1,0 +1,32 @@
+.signUp {
+    border: 3px solid #73AD21;
+}
+
+.signIn {
+    border: 3px solid #73AD21;
+}
+
+label{
+}
+
+input{
+}
+
+fieldset{
+    float: left;
+    height: 250px;
+}
+
+.total{
+    position: fixed;
+    background-color: linen;
+    opacity: 0.8;
+    background-clip: border-box;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    line-height: 25px;
+}

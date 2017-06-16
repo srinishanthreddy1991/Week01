@@ -1,0 +1,30 @@
+/*form {*/
+/*margin-bottom: 3em;*/
+/*}*/
+
+/*#marginForm fieldset {*/
+/*display: block;*/
+/*margin: 0 0 1em 0;*/
+/*border: 0 solid #FFFFFF;*/
+/*border-top: 1px solid #000000;*/
+/*padding: 0 1em 1em 1em;*/
+/*}*/
+
+/*#marginForm label.first {*/
+/*margin-top: 1em;*/
+/*}*/
+#marginForm label {
+    clear: both;
+    float: left;
+    display: block;
+    width: 8em;
+    margin-top: -1em;
+    font-weight: bold;
+}
+
+#marginForm input {
+    position: relative;
+    top: -1.4em;
+    left: 8em;
+    display: block;
+}
