@@ -16,9 +16,11 @@ function signIn() {
     }
     if(signInUser !== "" && signInPass !== ""){
 
-        signInHashValue = signInUser + signInPass;
+        var hashValue = signInUser + signInPass;
 
-        alert(signInHashValue.hashCode());
+        signInHashValue = hashValue.hashCode();
+
+        alert(signInHashValue);
 
         if(signUpHashValue === signInHashValue){
             return true;

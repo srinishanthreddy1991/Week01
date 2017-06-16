@@ -26,8 +26,11 @@ function signUp() {
     }
     if(signUpUser !== "" && signUpPass !== "" && signUpRePass !== ""){
 
-        signUpHashValue = signUpUser + signUpPass;
-        alert(signUpHashValue.hashCode());
+        var hashValue = signUpUser + signUpPass;
+
+        signUpHashValue = hashValue.hashCode()
+
+        alert(signUpHashValue);
         return true;
 
     }else {
