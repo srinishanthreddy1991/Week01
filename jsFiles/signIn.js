@@ -3,8 +3,8 @@
  */
 function signIn() {
 
-    signInUser = document.getElementById(inEmail).value;
-    signInPass = document.getElementById(inPass).value;
+    signInUser = document.getElementById("inEmail").value;
+    signInPass = document.getElementById("inPass").value;
 
     if(signInUser === ""){
         window.alert("Enter email id")
@@ -23,9 +23,6 @@ function signIn() {
         alert(signInHashValue);
 
         if(signUpHashValue === signInHashValue){
-            return true;
-        }else {
-            return false;
         }
     }
 }
