@@ -7,26 +7,26 @@
 </head>
 <body>
 <div class="total">
-    <form id="signUpForm" onclick="signUp()" action="home.html" method="get">
+    <form id="signUpForm" name="signUpForm" action="home.html" onsubmit="return signUp()" method="post">
         <fieldset class="signUp">
             <legend><h1>SignUp</h1></legend>
             <ul>
                 <li>
                     <label for="email"><strong>Email:</strong></label>
-                    <input id="email" type="email" placeholder="Enter email" name="email">
+                    <input id="email" type="email" placeholder="Enter email" name="email" required>
                 </li>
                 <li>
                     <label for="pass"><strong>Password:</strong></label>
-                    <input id="pass" type="password" placeholder="Enter password" name="passcode">
+                    <input id="pass" type="password" placeholder="Enter password" name="passcode" required>
                 </li>
                 <li>
                     <label for="repass"><strong>Re-Enter Password:</strong></label>
-                    <input id="repass" type="password" placeholder="Enter the password again" name="passcodeAgain">
+                    <input id="repass" type="password" placeholder="Enter the password again" name="passcodeAgain" required>
                 </li>
                 <li>
                     <div class="clearfix">
-                        <button form="signUpForm" onclick="signUp()">Sign Up</button>
-                        <button onclick="reset()">Reset</button>
+                        <button form="signUpForm" type="submit">Sign Up</button>
+                        <button type="reset" onclick="reset()">Reset</button>
                     </div>
                 </li>
             </ul>
